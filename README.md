@@ -39,3 +39,6 @@ https://arxiv.org/abs/1707.01836
 https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/data
 
 https://www.kaggle.com/shayanfazeli/heartbeat
+
+
+![formula](https://render.githubusercontent.com/render/math?math=\frac{\text{TP}}{\text{TP} + 0.5(\text{FP} + \text{FN})})
