@@ -1,4 +1,4 @@
-# Classification of Arrhythmia from Raw ECG using Deep Neural Network
+# Classification of Arrhythmia from Raw ECG using Deep Neural Network for Detection and Diagnosis
 
 # Overview of Included Files
 
@@ -7,11 +7,11 @@ data --> contains only the MIT-BIH dataset and instructions on how to get the ot
 
 
 # Datasets (Training)
-  - MIT-BIH : https://physionet.org/content/mitdb/1.0.0/
-  
-  - Georgia Tech : 
-  
+  - MIT-BIH
+    - 
+    
   - Physionet Challange 2020 (SNOMED Mapping)
+    - Composd of 6 
   
   - China 12 Lead ECG
 
@@ -24,18 +24,17 @@ data --> contains only the MIT-BIH dataset and instructions on how to get the ot
   - Metics Used
     - F1 Score --> F1 
 
-# How to run (Tested on Google Colab)
+# Demo Code
 
-1. Download the datasets
-2. 
-3. 
+## (Detector)
+
+## (Diagnoser)
 
 
 # References
 
-
+  1. Stanford Paper: Cardiologist Level Aryhthmia Detection with Convolutional Neural Networks -->
 https://arxiv.org/abs/1707.01836
 
+  2. Physionet Challange and Python Notebook -->
 https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/data
-
-https://www.kaggle.com/shayanfazeli/heartbeat
