@@ -31,6 +31,12 @@ data --> contains only the MIT-BIH dataset and instructions on how to get the ot
 # Results
   - Metics Used
     - F1 Score --> F1 
+![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/Arrhythmia-Distribution.png?raw=true)
+
+![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/RESNET-ConfusionM.png?raw=true)
+
+
+
 
 # Demo Code
 
