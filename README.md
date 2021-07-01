@@ -34,6 +34,8 @@ data --> contains only the MIT-BIH dataset and instructions on how to get the ot
 
 # Demo Code
 
+- The demo code allows you to use our trained model to predict a rythim for a given waveform.
+
 ## (Detector)
 
 ## (Diagnoser)
