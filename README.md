@@ -34,7 +34,8 @@ data --> contains only the MIT-BIH dataset and instructions on how to get the ot
 
 # Demo Code
 
-- The demo code allows you to use our trained model to predict a rythim for a given waveform.
+- The demo code allows you to use our trained model to predict a rhythm for a given waveform.
+- Run the scipt to query the network and choose the algorithm to use
 
 ## (Detector)
 
