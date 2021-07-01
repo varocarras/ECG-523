@@ -34,7 +34,7 @@ data --> contains only the MIT-BIH dataset and instructions on how to get the ot
 
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/RESNET-ConfusionM.png?raw=true)
 
- - IAVB =  
+ - IAVB = 1st Degree AV Block
  - AF = Atrial Fibrillation
  - AFL = Atrial Flutter
  - Brady = Bradycardia
