@@ -1,5 +1,13 @@
 # Classification of Arrhythmia from Raw ECG using Deep Neural Network for Detection and Diagnosis
 
+## TO-DO
+- Copy to SCC
+- Create train.py module
+- Generate new results (comparisons with new data)
+- Edit README
+- Train on Stanford's Model
+
+
 # Overview of Included Files
 
 models folder --> Stores the model weights
