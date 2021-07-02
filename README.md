@@ -21,18 +21,19 @@
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/12lead.png?raw=true)
 
 # Datasets (Training)
-  - MIT-BIH Arrhythmia dataset
-  - China 12-Lead ECG Challenge Database
-  - China Physiological Signal Challenge in 2018
-  - Georgia 12-Lead ECG Challenge Database
-  - Physionet Challenge 2020 (SNOMED Mapping)
+  - MIT-BIH Arrhythmia dataset <-- Used for Detector Model
+
+  - Physionet Challenge 2020 (SNOMED Mapping) <-- Used for Diagnosis Model
+    - China 12-Lead ECG Challenge Database
+    - China Physiological Signal Challenge in 2018
+    - Georgia 12-Lead ECG Challenge Database
+    - PTB Diagnosis ECG Database
+    - PTB-XL electrocardiography Database
+    - St Petersburg INCART 12-lead Arrhythmia Dataset
     - 43101 Recordings (See distribution of classes in data below)
     - ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/Arrhythmia-Distribution.png?raw=true)
-  - PTB Diagnosis ECG Database
-  - PTB-XL electrocardiography Database
-  - St Petersburg INCART 12-lead Arrhythmia Dataset
-  
 
+  
 # Results
   - Metics Used
     - F1 Score --> F1 
