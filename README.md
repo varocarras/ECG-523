@@ -17,6 +17,7 @@
 # Example of Input file
 
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/ECG-Sample.png?raw=true)
+![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/12lead.png?raw=true)
 
 # Datasets (Training)
   - MIT-BIH Arrhythmia dataset
