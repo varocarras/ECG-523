@@ -1,3 +1,6 @@
+#  Adapted from --> https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/data
+
+
 # Classification of Arrhythmia from Raw ECG using Deep Neural Network for Detection and Diagnosis
 
 ## TO-DO
@@ -6,7 +9,6 @@
 - Generate new results (comparisons with new data)
 - Edit README
 - Train on Stanford's Model
-
 
 # Overview of Included Files
 
@@ -19,10 +21,7 @@ data --> contains only the MIT-BIH dataset and instructions on how to get the ot
     - 
     
   - Physionet Challange 2020 (SNOMED Mapping)
-    - Composd of 6 
-  
-  - China 12 Lead ECG
-
+    - 
   - PTB Diagnosis ECG Database
 
 # Datasets (Test)
@@ -34,6 +33,34 @@ data --> contains only the MIT-BIH dataset and instructions on how to get the ot
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/Arrhythmia-Distribution.png?raw=true)
 
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/RESNET-ConfusionM.png?raw=true)
+
+ - IAVB = 1st Degree AV Block
+ - AF = Atrial Fibrillation
+ - AFL = Atrial Flutter
+ - Brady = Bradycardia
+ - CRBBB = Complete Right Bundle Branch Block
+ - IRBBB = Incomplete Right Bundle Branch Block
+ - LAnFB = Left Anterior Fascicular Block
+ - LAD = Left Axis Deviation
+ - LBBB = Left Bundle Branch Block
+ - LQRSV = Low QRS Voltage
+ - NSIVCB = Nonspecific Intraventricular Conduction Disorder
+ - PR = Pacing Rhythm
+ - PAC = Premature Atrial Contraction
+ - PVC = Premature Ventricular Contraction
+ - PR = Prolonged PR Interval
+ - LQT = Prolonged QT Interval
+ - QAb = Qwave Abnormal
+ - RAD = Right Axis Deviation
+ - RBBB = Right Bundle Branch Block
+ - SA = Sinus Arrhythmia
+ - SB = Sinus Bradycardia
+ - SNR = Sinus Rhythm
+ - STach = Sinus Tachycardia
+ - SVPB = Supraventricular Premature Beats
+ - TAb = T Wave Abnormal
+ - TInv = T Wave Inversion
+ - VPB = Ventricular Premature Beats
 
 
 
