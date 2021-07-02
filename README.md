@@ -1,6 +1,6 @@
 
 
-Note: Project and Data Adapted from --> https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/ and https://www.kaggle.com/shayanfazeli/heartbeat
+Note: Project and Data Adapted from --> https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/ and https://www.kaggle.com/gregoiredc/arrhythmia-on-ecg-classification-using-cnn
 
 # ECG Arrhythmia Classifcation with Deep Neural Networks
 
@@ -41,19 +41,22 @@ Alternate 12-lead ECG Plot(sample# vs. ADC count)
     Total of 43101 Recordings (See distribution of classes in data below)
     ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/Arrhythmia-Distribution.png?raw=true)
 
-  
 # Results
 - CNN Model (Detection)
-  - F1 Score --> 
+  - F1 Score --> 0.87 (10 epochs)
   - Number of Parameters --> ~ 15,000
   - Confusion Matrix
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/confdet.png?raw=true)
 
 ### List of Classes in Confusion Matrix 
-
+  - N = Normal Beat 
+  - S = Supraventricular 
+  - V = Ventricular 
+  - F = Fusion Beats 
+  - Q = Unknown Beats
+---
 - ResNet Model (Diagnosis)
-  - F1 Score --> F1 
-  - Number of Parameters --> ~500,000
+  - Number of Parameters --> ~ 500,000
   - Confusion Matrix
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/RESNET-ConfusionM.png?raw=true)
 
@@ -86,8 +89,10 @@ Alternate 12-lead ECG Plot(sample# vs. ADC count)
  - TInv = T Wave Inversion
  - VPB = Ventricular Premature Beats
 
+---
+
 # Link to Slides
-- ADD LINK HERE
+- https://github.com/varocarras/ECG-523/blob/main/Slides/CS523%20Project.pdf
 
 # Demo Code
 
@@ -99,6 +104,7 @@ Alternate 12-lead ECG Plot(sample# vs. ADC count)
   - Weights will save to /Models/resnet_model.h5 and will load from there to test
   - We left the weights there in case you dont want to train the model again
 
+
 # References
 
 1. B. -J. Singstad and C. Tronstad, "Convolutional Neural Network and Rule-Based Algorithms for Classifying 12-lead ECGs," 2020 Computing in Cardiology, 2020, pp. 1-4, doi: 10.22489/CinC.2020.227. --> (https://ieeexplore.ieee.org/document/9344421)
@@ -107,4 +113,4 @@ Alternate 12-lead ECG Plot(sample# vs. ADC count)
 (https://arxiv.org/abs/1707.01836)
 
 3. MIT-BIH Data in CSV format --> (https://www.kaggle.com/shayanfazeli/heartbeat)
-4. Detector Model Adaptation --> (https://www.kaggle.com/shayanfazeli/heartbeat)
+4. Detector Model Adaptation --> (https://www.kaggle.com/gregoiredc/arrhythmia-on-ecg-classification-using-cnn)
