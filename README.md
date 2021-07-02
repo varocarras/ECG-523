@@ -1,14 +1,10 @@
 #  Adapted from --> https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/data
 
 
-# Classification of Arrhythmia from Raw ECG using Deep Neural Network for Detection and Diagnosis
+# ECG Arrhythmia Classifcation with Deep Neural Networks
 
-## TO-DO
+## TODO
 - Copy to SCC
-- Create train.py module
-- Generate new results (comparisons with new data)
-- Edit README
-- Train on Stanford's Model
 
 # Overview of Included Files
 
@@ -16,22 +12,16 @@ models folder --> Stores the model weights
 data --> contains only the MIT-BIH dataset and instructions on how to get the other datasets
 
 
-# Datasets (Training)
+# Datasets
   - MIT-BIH
-    - 
     
   - Physionet Challange 2020 (SNOMED Mapping)
-    - 
-  - PTB Diagnosis ECG Database
-
-# Datasets (Test)
-- Irythm 
+    - 43101 Recordings (See distribution of classes in data below)
+    - ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/Arrhythmia-Distribution.png?raw=true)
 
 # Results
   - Metics Used
     - F1 Score --> F1 
-![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/Arrhythmia-Distribution.png?raw=true)
-
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/RESNET-ConfusionM.png?raw=true)
 
  - IAVB = 1st Degree AV Block
@@ -61,9 +51,6 @@ data --> contains only the MIT-BIH dataset and instructions on how to get the ot
  - TAb = T Wave Abnormal
  - TInv = T Wave Inversion
  - VPB = Ventricular Premature Beats
-
-
-
 
 # Demo Code
 
