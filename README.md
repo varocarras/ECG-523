@@ -1,13 +1,14 @@
 
 
-# Adapted from --> https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/data
+Note: Project and Data Adapted from --> https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/
 
 # ECG Arrhythmia Classifcation with Deep Neural Networks
 
-## TODO
-- Copy to SCC
+## Team Members
+- Anthony Sayegh (asayegh@bu.edu)
+- Alvaro Carrascosa Penabad (varo@bu.edu)
 
-# Overview of Included Files
+# Included Files
 
 - Models    --> Stores the models and their corresponding weights
 - Data      --> Contains the MIT-BIH data and the links to the additional required data (Too big for GitHub)
@@ -15,12 +16,15 @@
 - Slides    --> Contains slides for the in-class presentation
 - Images    --> Contains data visualizations and other generated useful representations and results
 
-# Example of Input file
+# Overview of Problem
 
+# Example of Input file (12-lead ECG)
+Standard ECG Plot
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/ECG-Sample.png?raw=true)
+Normal Multi-channel Plot(sample# vs. ADC count)
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/12lead.png?raw=true)
 
-# Datasets (Training)
+# Datasets
   - MIT-BIH Arrhythmia dataset <-- Used for Detector Model
 
   - Physionet Challenge 2020 (SNOMED Mapping) <-- Used for Diagnosis Model
@@ -30,16 +34,17 @@
     - PTB Diagnosis ECG Database
     - PTB-XL electrocardiography Database
     - St Petersburg INCART 12-lead Arrhythmia Dataset
-    - 43101 Recordings (See distribution of classes in data below)
-    - ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/Arrhythmia-Distribution.png?raw=true)
+   
+    Total of 43101 Recordings (See distribution of classes in data below)
+    ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/Arrhythmia-Distribution.png?raw=true)
 
   
 # Results
-  - Metics Used
-    - F1 Score --> F1 
+- F1 Score --> F1 
 
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/RESNET-ConfusionM.png?raw=true)
 
+### List of Classes in Confusion Matrix 
  - IAVB = 1st Degree AV Block
  - AF = Atrial Fibrillation
  - AFL = Atrial Flutter
@@ -68,6 +73,9 @@
  - TInv = T Wave Inversion
  - VPB = Ventricular Premature Beats
 
+# Link to Slides
+- ADD LINK HERE
+
 # Demo Code
 
 - [DEMO link](https://github.com/varocarras/ECG-523/blob/main/DEMO.ipynb)
@@ -78,15 +86,12 @@
   - Weights will save to /Models/resnet_model.h5 and will load from there to test
   - We left the weights there in case you dont want to train the model again
 
-## (Detector)
-
-## (Diagnoser)
-
-
 # References
 
-  1. Stanford Paper: Cardiologist Level Aryhthmia Detection with Convolutional Neural Networks -->
+1. B. -J. Singstad and C. Tronstad, "Convolutional Neural Network and Rule-Based Algorithms for Classifying 12-lead ECGs," 2020 Computing in Cardiology, 2020, pp. 1-4, doi: 10.22489/CinC.2020.227. --> (https://ieeexplore.ieee.org/document/9344421)
+
+2. Cardiologist Level Aryhthmia Detection with Convolutional Neural Networks -->
 https://arxiv.org/abs/1707.01836
 
-  2. Physionet Challange and Python Notebook -->
-https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/data
+3. Classification of Arrhythmia by Using Deep Learning with 2D ECG Spectral Image Representation -->
+https://arxiv.org/pdf/2005.06902.pdf
