@@ -8,16 +8,25 @@
 
 # Overview of Included Files
 
-models folder --> Stores the model weights
-data --> contains only the MIT-BIH dataset and instructions on how to get the other datasets
 
+Models    --> Stores the models and their corresponding weights
+Data      --> Contains the MIT-BIH data and the links to the additional required data (Too big for GitHub)
+Utilities --> Contains helper functions provided for the Physionet challenge
+Slides    --> Contains slides for the in-class presentation
+Images    --> Contains data visualizations and other generated useful representations and results
 
-# Datasets
-  - MIT-BIH
-    
-  - Physionet Challange 2020 (SNOMED Mapping)
+# Datasets (Training)
+  - MIT-BIH Arrhythmia dataset
+  - China 12-Lead ECG Challenge Database
+  - China Physiological Signal Challenge in 2018
+  - Georgia 12-Lead ECG Challenge Database
+  - Physionet Challenge 2020 (SNOMED Mapping)
     - 43101 Recordings (See distribution of classes in data below)
     - ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/Arrhythmia-Distribution.png?raw=true)
+  - PTB Diagnosis ECG Database
+  - PTB-XL electrocardiography Database
+  - St Petersburg INCART 12-lead Arrhythmia Dataset
+  
 
 # Results
   - Metics Used
@@ -54,8 +63,10 @@ data --> contains only the MIT-BIH dataset and instructions on how to get the ot
 
 # Demo Code
 
-- The demo code allows you to use our trained model to predict a rhythm for a given waveform.
-- Run the scipt to query the network and choose the algorithm to use
+- The demo code allows for training the model as well as loading its weights to predict a rhythm for any given waveform.
+- Run the script to generate visualizations and show an example of predicting a rhythm for a particular patient. 
+- In order to retrain the model:
+  - Run train.py or uncomment the training code from the Demo.ipynb
 
 ## (Detector)
 
