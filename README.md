@@ -67,7 +67,7 @@
 
 # Demo Code
 
-- [a link](https://github.com/varocarras/ECG-523/blob/main/Images/DEMO.ipynb)
+- [a link](https://github.com/varocarras/ECG-523/blob/main/DEMO.ipynb)
 - The demo code allows for training the model as well as loading its weights to predict a rhythm for any given waveform.
 - Run the script to generate visualizations and show an example of predicting a rhythm for a particular patient. 
 - In order to retrain the model:
