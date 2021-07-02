@@ -47,15 +47,16 @@ Alternate 12-lead ECG Plot(sample# vs. ADC count)
 # Results
 - CNN Model (Detection)
   - F1 Score --> 
-  - Number of Parameters --> ~
-Confusion Matrix
+  - Number of Parameters --> ~ 15,000
+  - Confusion Matrix
+![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/confdet.png?raw=true)
 
 ### List of Classes in Confusion Matrix 
 
 - ResNet Model (Diagnosis)
   - F1 Score --> F1 
   - Number of Parameters --> ~500,000
-Confusion Matrix
+  - Confusion Matrix
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/RESNET-ConfusionM.png?raw=true)
 
 ### List of Classes in Confusion Matrix 
