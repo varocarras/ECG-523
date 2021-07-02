@@ -18,10 +18,15 @@ Note: Project and Data Adapted from --> https://www.kaggle.com/bjoernjostein/phy
 
 # Overview of Problem
 
+# Goals
+Explore the following types of models for Arrythmia Classification using Deep Neural Networks
+- Detector Scale Algorithm(CNN) : Simple architecture, basic detection of irregularities.
+- Diagnosis Scale Algorithm(ResNet) : More classes, but utilizes a more complex architecture in addition to having more parameters.
+
 # Example of Input file (12-lead ECG)
-Standard ECG Plot
+Traditional 12-lead ECG Plot
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/ECG-Sample.png?raw=true)
-Normal Multi-channel Plot(sample# vs. ADC count)
+Alternate 12-lead ECG Plot(sample# vs. ADC count)
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/12lead.png?raw=true)
 
 # Datasets
@@ -40,8 +45,17 @@ Normal Multi-channel Plot(sample# vs. ADC count)
 
   
 # Results
-- F1 Score --> F1 
+- CNN Model (Detection)
+  - F1 Score --> 
+  - Number of Parameters --> ~
+Confusion Matrix
 
+### List of Classes in Confusion Matrix 
+
+- ResNet Model (Diagnosis)
+  - F1 Score --> F1 
+  - Number of Parameters --> ~500,000
+Confusion Matrix
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/RESNET-ConfusionM.png?raw=true)
 
 ### List of Classes in Confusion Matrix 
@@ -91,7 +105,6 @@ Normal Multi-channel Plot(sample# vs. ADC count)
 1. B. -J. Singstad and C. Tronstad, "Convolutional Neural Network and Rule-Based Algorithms for Classifying 12-lead ECGs," 2020 Computing in Cardiology, 2020, pp. 1-4, doi: 10.22489/CinC.2020.227. --> (https://ieeexplore.ieee.org/document/9344421)
 
 2. Cardiologist Level Aryhthmia Detection with Convolutional Neural Networks -->
-https://arxiv.org/abs/1707.01836
+(https://arxiv.org/abs/1707.01836)
 
-3. Classification of Arrhythmia by Using Deep Learning with 2D ECG Spectral Image Representation -->
-https://arxiv.org/pdf/2005.06902.pdf
+3. MIT-BIH Data in CSV format --> (https://www.kaggle.com/shayanfazeli/heartbeat)
