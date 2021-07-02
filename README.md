@@ -1,6 +1,6 @@
 
 
-Note: Project and Data Adapted from --> https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/
+Note: Project and Data Adapted from --> https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/ and https://www.kaggle.com/shayanfazeli/heartbeat
 
 # ECG Arrhythmia Classifcation with Deep Neural Networks
 
@@ -15,8 +15,6 @@ Note: Project and Data Adapted from --> https://www.kaggle.com/bjoernjostein/phy
 - Utilities --> Contains helper functions provided for the Physionet challenge
 - Slides    --> Contains slides for the in-class presentation
 - Images    --> Contains data visualizations and other generated useful representations and results
-
-# Overview of Problem
 
 # Goals
 Explore the following types of models for Arrythmia Classification using Deep Neural Networks
@@ -109,3 +107,4 @@ Alternate 12-lead ECG Plot(sample# vs. ADC count)
 (https://arxiv.org/abs/1707.01836)
 
 3. MIT-BIH Data in CSV format --> (https://www.kaggle.com/shayanfazeli/heartbeat)
+4. Detector Model Adaptation --> (https://www.kaggle.com/shayanfazeli/heartbeat)
