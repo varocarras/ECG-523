@@ -2,7 +2,7 @@
 
 
 # ECG Arrhythmia Classifcation with Deep Neural Networks
-####### Adapted from --> https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/data
+#### Adapted from --> https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/data
 
 ## TODO
 - Copy to SCC
