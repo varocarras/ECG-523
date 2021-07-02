@@ -8,12 +8,15 @@
 
 # Overview of Included Files
 
+- Models    --> Stores the models and their corresponding weights
+- Data      --> Contains the MIT-BIH data and the links to the additional required data (Too big for GitHub)
+- Utilities --> Contains helper functions provided for the Physionet challenge
+- Slides    --> Contains slides for the in-class presentation
+- Images    --> Contains data visualizations and other generated useful representations and results
 
-Models    --> Stores the models and their corresponding weights
-Data      --> Contains the MIT-BIH data and the links to the additional required data (Too big for GitHub)
-Utilities --> Contains helper functions provided for the Physionet challenge
-Slides    --> Contains slides for the in-class presentation
-Images    --> Contains data visualizations and other generated useful representations and results
+# Example of Input file
+
+![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/ECG-Sample.png?raw=true)
 
 # Datasets (Training)
   - MIT-BIH Arrhythmia dataset
@@ -31,6 +34,7 @@ Images    --> Contains data visualizations and other generated useful representa
 # Results
   - Metics Used
     - F1 Score --> F1 
+
 ![alt text](https://github.com/varocarras/ECG-523/blob/main/Images/RESNET-ConfusionM.png?raw=true)
 
  - IAVB = 1st Degree AV Block
@@ -66,7 +70,9 @@ Images    --> Contains data visualizations and other generated useful representa
 - The demo code allows for training the model as well as loading its weights to predict a rhythm for any given waveform.
 - Run the script to generate visualizations and show an example of predicting a rhythm for a particular patient. 
 - In order to retrain the model:
-  - Run train.py or uncomment the training code from the Demo.ipynb
+  - Run train.py (root folder file) or uncomment the training code from the Demo.ipynb
+  - Weights will save to /Models/resnet_model.h5 and will load from there to test
+  - We left the weights there in case you dont want to train the model again
 
 ## (Detector)
 
