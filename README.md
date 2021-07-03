@@ -98,7 +98,7 @@ Alternate 12-lead ECG Plot(sample# vs. ADC count)
 
 - [DEMO link](https://github.com/varocarras/ECG-523/blob/main/DEMO.ipynb)
 - The demo code allows for training the model as well as loading its weights to predict a rhythm for any given waveform.
-- Run the script to generate visualizations and show an example of predicting a rhythm for a particular patient. 
+- Run the ipynb to generate visualizations and show an example of predicting a rhythm for a particular patient. 
 - In order to retrain the model:
   - Run train.py (root folder file) or uncomment the training code from the Demo.ipynb
   - Weights will save to /Models/resnet_model.h5 and will load from there to test
