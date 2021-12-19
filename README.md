@@ -2,7 +2,7 @@
 
 Note: Project and Data Adapted from --> https://www.kaggle.com/bjoernjostein/physionet-challenge-2020/ and https://www.kaggle.com/gregoiredc/arrhythmia-on-ecg-classification-using-cnn
 
-# ECG Arrhythmia Classifcation with Deep Neural Networks
+# ECG Arrhythmia Classification with Deep Neural Networks
 
 ## Team Members
 - Anthony Sayegh (asayegh@bu.edu)
